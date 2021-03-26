@@ -22,7 +22,41 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b8077e7-a382-498d-adfb-56ccb3d6088a" name="Default Changelist" comment="spring" />
+    <list default="true" id="4b8077e7-a382-498d-adfb-56ccb3d6088a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring-streem消息驱动编程.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-streem消息驱动编程.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/dn/feigndemo/FeignDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/dn/feigndemo/FooConfiguration/FooConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/dn/feigndemo/controller/FeignConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/dn/feigndemo/fallback/HelloDemoFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/dn/feigndemo/model/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/dn/feigndemo/service/FeignHeaderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/dn/feigndemo/service/HellDemoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/study/customer/CustomerDemoApplication$EventConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/study/customer/CustomerDemoApplication$MyApplicationEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/study/customer/CustomerDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/study/customer/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/study/customer/event/MyEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/classes/com/study/customer/stream/StreamClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/test-classes/com/dn/feigndemo/FeignDemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-demo/target/test-classes/com/study/customer/FeignDemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/classes/com/defiend/definedfegin/DefinedFeginApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/classes/com/defiend/definedfegin/annotation/FeginClinet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/classes/com/defiend/definedfegin/annotation/FeginGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/classes/com/defiend/definedfegin/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/classes/com/defiend/definedfegin/service/TestFeign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/classes/com/defiend/definedfegin/util/FeignRegistar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/classes/com/defiend/definedfegin/util/FeignRegistar$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/classes/com/defiend/definedfegin/util/FeignRegistar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/test-classes/com/defiend/definedfegin/DefinedFeginApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/defined-feign/target/test-classes/com/study/defined/DefinedFeginApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +230,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616730423310</updated>
-      <workItem from="1616730424474" duration="7052000" />
+      <workItem from="1616730424474" duration="8133000" />
     </task>
     <task id="LOCAL-00001" summary="spring">
       <created>1616742179092</created>
@@ -205,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616742179092</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改target">
+      <created>1616746074017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616746074017</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改target">
+      <created>1616746086248</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616746086248</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,13 +272,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring" />
+    <MESSAGE value="修改target" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改target" />
   </component>
   <component name="WindowStateProjectService">
     <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616740645333">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1616740645333" />
+    <state x="129" y="3" key="CommitChangelistDialog2" timestamp="1616746084105">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="129" y="3" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1616746084105" />
     <state x="465" y="177" key="FileChooserDialogImpl" timestamp="1616742634854">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -239,10 +292,14 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state width="410" height="480" key="Git.Branch.Popup/0.0.1368.872@0.0.1368.872" timestamp="1616742710064" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1616742865631">
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1616746092236">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1616742865631" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1616746092236" />
+    <state x="492" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616746060061">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="492" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.872@0.0.1368.872" timestamp="1616746060061" />
     <state x="334" y="315" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616742525791">
       <screen x="0" y="0" width="1368" height="872" />
     </state>

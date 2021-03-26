@@ -1,0 +1,22 @@
+server:
+  port: 6000
+logging:
+  level:
+    root: WARN
+    org.springframework: INFO
+    org.springframework.cloud: DEBUG
+spring:
+  application:
+    name: spring-cloud-gateway
+  cloud:
+    gateway:
+     discovery:
+       locator:
+         enabled: true
+
+
+#如果我们用服务id去进行访问,那么请求地址用 http:网关地址/serviceId/具体的url
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka

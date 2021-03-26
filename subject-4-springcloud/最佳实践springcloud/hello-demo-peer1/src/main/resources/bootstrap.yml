@@ -1,0 +1,16 @@
+#spring:
+#  cloud:
+#    config:
+#      ##名字是为了演示，事实上建议配置文件名为我们的服务名
+#      name: helloserver
+#      uri: http://localhost:5001/
+#  profiles:
+#    active: dev
+#  application:
+#    name: helloserver
+#
+#logging:
+#  level:
+#    org.springframework.cloud: debug
+#    com:
+#      netflix: debug

@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        enabled: true
+        # 根路径
+        prefix: config
+        # 环境隔离
+        profileSeparator: '::'
+        watch:
+          enable: true

@@ -1,0 +1,109 @@
+
+spring:
+  profiles:
+    active: dev1
+
+
+---
+spring:
+  application:
+    name: eureka-peer
+  profiles: dev
+
+server:
+  port: 10000
+
+eureka:
+  server:
+    enable-self-preservation: false
+  instance:
+    hostname: dev
+    instance-id: dev
+    ###服务和注册中心的心跳间隔时间，默认为30s
+    lease-renewal-interval-in-seconds: 10
+    ###服务和注册中心的心跳超时时间，默认为90s
+    lease-expiration-duration-in-seconds: 20
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    prefer-same-zone-eureka: true
+    ###地区选择
+    region: hangzhou # china
+    availability-zones:
+    ##地区下的机房选择
+      hangzhou: zone-1,zone-2
+    ##固定好了区域之后开始调用服务
+    service-url:
+      zone-1: http://localhost:10000/eureka/
+      zone-2: http://localhost:10001/eureka/
+
+zone:
+  name: zone-1
+
+
+
+---
+spring:
+  profiles: dev1
+  application:
+    name: eureka-peer2
+server:
+  port: 10001
+
+
+eureka:
+  server:
+    prefer-same-zone-eureka: true
+  instance:
+    hostname: dev1
+    instance-id: dev1
+    ###服务和注册中心的心跳间隔时间，默认为30s
+    lease-renewal-interval-in-seconds: 10
+    ###服务和注册中心的心跳超时时间，默认为90s
+    lease-expiration-duration-in-seconds: 20
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    prefer-same-zone-eureka: true
+    ###地区选择
+    region: hangzhou
+    availability-zones:
+      ##地区下的机房选择
+      hangzhou: zone-1,zone-2
+    ##固定好了区域之后开始调用服务
+    service-url:
+      zone-1: http://localhost:10000/eureka/
+      zone-2: http://localhost:10001/eureka/
+
+zone:
+  name: zone-2
+---
+spring:
+   profiles: dev2
+   application:
+     name: eureka-peer3
+server:
+  port: 10002
+
+
+eureka:
+    instance:
+      hostname: dev2
+      instance-id: dev2
+    client:
+      fetch-registry: false
+      register-with-eureka: false
+      prefer-same-zone-eureka: true
+      region: hangzhou
+      availability-zones:
+        ##地区下的机房选择
+        hangzhou: zone-1,zone-2
+      ##固定好了区域之后开始调用服务
+      service-url:
+        zone-1: http://localhost:10000/eureka/
+        zone-2: http://localhost:10001/eureka/
+
+
+zone:
+  name: zone-3
+---

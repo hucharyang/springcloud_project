@@ -1,0 +1,57 @@
+server:
+  port: 5001
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: D:\\wy-springcloud\\spring-cloud-config-server\\src\\main\\resources\\configs
+#          uri: http://192.168.100.242:18080/root/temp.git
+#          search-paths: /temp
+#          username: root
+#          password: 12345678
+#        encrypt:
+#          enabled: true
+#    bus:
+#      destination: bus-q
+#      trace:
+#        enabled: true
+#    stream:
+#      binders:
+#        rabbit1:
+#          type: rabbit
+#          environment:
+#            spring:
+#              rabbitmq:
+#                host: localhost
+#                port: 5672
+#                username: guest
+#                password: guest
+#                publisher-confirms: true
+#      bindings:
+#        myInput:
+#          binder: rabbit1
+#          destination: things1
+#        myOutput:
+#          binder: rabbit1
+#          destination: things1
+#        springCloudBusOutput:
+#          binder: rabbit1
+#        springCloudBusInput:
+#          binder: rabbit1
+
+#  security:
+#    user:
+#      password: 123456
+#      name: user
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/customer-demo/customer-demo.iml" filepath="$PROJECT_DIR$/customer-demo/customer-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/defined-feign/defined-fegin.iml" filepath="$PROJECT_DIR$/defined-feign/defined-fegin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-demo-peer1/hello-demo-peer1.iml" filepath="$PROJECT_DIR$/hello-demo-peer1/hello-demo-peer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-demo-peer2/hello-demo-peer2.iml" filepath="$PROJECT_DIR$/hello-demo-peer2/hello-demo-peer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-demo/server-demo.iml" filepath="$PROJECT_DIR$/server-demo/server-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul-consumer/spring-cloud-consul-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-consul-consumer/spring-cloud-consul-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul-porvider/spring-cloud-consul-porvider.iml" filepath="$PROJECT_DIR$/spring-cloud-consul-porvider/spring-cloud-consul-porvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard/spring-cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard/spring-cloud-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream/spring-cloud-stream.iml" filepath="$PROJECT_DIR$/spring-cloud-stream/spring-cloud-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zk-consumer/spring-cloud-zk-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-zk-consumer/spring-cloud-zk-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zk-porvider/spring-cloud-zk-porvider.iml" filepath="$PROJECT_DIR$/spring-cloud-zk-porvider/spring-cloud-zk-porvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-demo/user.iml" filepath="$PROJECT_DIR$/user-demo/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/最佳实践springcloud.iml" filepath="$PROJECT_DIR$/.idea/最佳实践springcloud.iml" />
+    </modules>
+  </component>
+</project>
